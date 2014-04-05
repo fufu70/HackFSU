@@ -1,0 +1,1531 @@
+2014/01/30 19:19:10 [error] [exception.CException] exception 'CException' with message 'Log and its behaviors do not have a method or closure named "label".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/db/ar/CActiveRecord.php(227): CComponent->__call('label', Array)
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxActiveRecord.php(152): CActiveRecord->__call('label', Array)
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxActiveRecord.php(152): Log->label(2)
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/reservation/_form.php(102): GxActiveRecord->getRelationLabel('logs')
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(126): require('/Users/imicklis...')
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/imicklis...', Array, true)
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): CBaseController->renderFile('/Users/imicklis...', Array, true)
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/reservation/create.php(19): CController->renderPartial('_form', Array)
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(126): require('/Users/imicklis...')
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/imicklis...', Array, true)
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): CBaseController->renderFile('/Users/imicklis...', Array, true)
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReservationController.php(27): CController->render('create', Array)
+#13 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReservationController->actionCreate()
+#14 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('create')
+#18 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('reservation/cre...')
+#19 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/reservation/create
+HTTP_REFERER=http://localhost/index.php/reservation
+---
+2014/02/07 23:52:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "signin".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('signin')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('signin')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('site/signin')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/signin
+---
+2014/02/07 23:52:18 [error] [exception.CException] exception 'CException' with message 'Log and its behaviors do not have a method or closure named "label".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/db/ar/CActiveRecord.php(227): CComponent->__call('label', Array)
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxActiveRecord.php(152): CActiveRecord->__call('label', Array)
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxActiveRecord.php(152): Log->label(2)
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/people/_form.php(52): GxActiveRecord->getRelationLabel('logs')
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(126): require('/Users/imicklis...')
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/imicklis...', Array, true)
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): CBaseController->renderFile('/Users/imicklis...', Array, true)
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/people/create.php(19): CController->renderPartial('_form', Array)
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(126): require('/Users/imicklis...')
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/imicklis...', Array, true)
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): CBaseController->renderFile('/Users/imicklis...', Array, true)
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/PeopleController.php(27): CController->render('create', Array)
+#13 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): PeopleController->actionCreate()
+#14 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('create')
+#18 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('people/create')
+#19 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=people/create
+---
+2014/02/07 23:52:25 [warning] [application] Failed to set unsafe attribute "peoples" of "PersonRole".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/PersonRoleController.php (17)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/02/07 23:52:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxController.php:144
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/PersonRoleController.php(8): GxController->loadModel('11', 'PersonRole')
+#1 [internal function]: PersonRoleController->actionView('11')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(PersonRoleController), Array)
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PersonRoleController), Object(ReflectionMethod), Array)
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('personRole/view')
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/personRole/view?id=11
+---
+2014/02/07 23:52:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxController.php:144
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/PeopleController.php(8): GxController->loadModel('7', 'People')
+#1 [internal function]: PeopleController->actionView('7')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(PeopleController), Array)
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PeopleController), Object(ReflectionMethod), Array)
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('people/view')
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/people/view?id=7
+---
+2014/02/07 23:52:34 [error] [exception.CException] exception 'CException' with message 'Log and its behaviors do not have a method or closure named "label".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/db/ar/CActiveRecord.php(227): CComponent->__call('label', Array)
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxActiveRecord.php(152): CActiveRecord->__call('label', Array)
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxActiveRecord.php(152): Log->label(2)
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/people/_form.php(52): GxActiveRecord->getRelationLabel('logs')
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(126): require('/Users/imicklis...')
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/imicklis...', Array, true)
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): CBaseController->renderFile('/Users/imicklis...', Array, true)
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/people/create.php(19): CController->renderPartial('_form', Array)
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(126): require('/Users/imicklis...')
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/imicklis...', Array, true)
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): CBaseController->renderFile('/Users/imicklis...', Array, true)
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/PeopleController.php(27): CController->render('create', Array)
+#13 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): PeopleController->actionCreate()
+#14 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('create')
+#18 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('people/create')
+#19 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/people/create
+HTTP_REFERER=http://localhost/index.php/people
+---
+2014/02/07 23:52:55 [error] [exception.CException] exception 'CException' with message 'Log and its behaviors do not have a method or closure named "label".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/db/ar/CActiveRecord.php(227): CComponent->__call('label', Array)
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxActiveRecord.php(152): CActiveRecord->__call('label', Array)
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxActiveRecord.php(152): Log->label(2)
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/people/_form.php(52): GxActiveRecord->getRelationLabel('logs')
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(126): require('/Users/imicklis...')
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/imicklis...', Array, true)
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): CBaseController->renderFile('/Users/imicklis...', Array, true)
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/people/create.php(19): CController->renderPartial('_form', Array)
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(126): require('/Users/imicklis...')
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/imicklis...', Array, true)
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): CBaseController->renderFile('/Users/imicklis...', Array, true)
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/PeopleController.php(27): CController->render('create', Array)
+#13 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): PeopleController->actionCreate()
+#14 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('create')
+#18 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('people/create')
+#19 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/people/create
+HTTP_REFERER=http://localhost/index.php/people/admin
+---
+2014/02/07 23:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sale".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('sale')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('sale')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('site/sale')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/sale
+---
+2014/03/02 19:19:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "signin".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('signin')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('signin')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('site/signin')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/signin
+---
+2014/03/02 19:23:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "signin".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('signin')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('signin')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('site/signin')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/signin
+---
+2014/03/02 19:24:09 [error] [exception.CException] exception 'CException' with message 'Log and its behaviors do not have a method or closure named "label".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/db/ar/CActiveRecord.php(227): CComponent->__call('label', Array)
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxActiveRecord.php(152): CActiveRecord->__call('label', Array)
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxActiveRecord.php(152): Log->label(2)
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/people/_form.php(52): GxActiveRecord->getRelationLabel('logs')
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(126): require('/Users/imicklis...')
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/imicklis...', Array, true)
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): CBaseController->renderFile('/Users/imicklis...', Array, true)
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/people/create.php(19): CController->renderPartial('_form', Array)
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(126): require('/Users/imicklis...')
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/imicklis...', Array, true)
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): CBaseController->renderFile('/Users/imicklis...', Array, true)
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/PeopleController.php(27): CController->render('create', Array)
+#13 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): PeopleController->actionCreate()
+#14 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('create')
+#18 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('people/create')
+#19 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/people/create
+HTTP_REFERER=http://localhost/index.php?r=people
+---
+2014/03/02 19:51:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "signin".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('signin')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('signin')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('site/signin')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/signin
+---
+2014/03/02 19:51:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "signin".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('signin')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('signin')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('site/signin')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/signin
+---
+2014/03/02 20:17:54 [error] [php] Trying to get property of non-object (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/site/reservationform.php:296)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php(29): SiteController->render()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/SiteController.php(98): View->renderViewWithModelAndParam()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): SiteController->actionReservationnew()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): SiteController->runAction()
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/reservationnew
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/site/reservationform.php (296)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php (29)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/SiteController.php (98)
+2014/03/02 20:27:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/post/index
+---
+2014/03/02 20:27:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxController.php:144
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/PeopleController.php(8): GxController->loadModel('35', 'People')
+#1 [internal function]: PeopleController->actionView('35')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(PeopleController), Array)
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PeopleController), Object(ReflectionMethod), Array)
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('people/view')
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/people/view?id=35
+---
+2014/03/02 23:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "rese/reservationnew".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('rese/reservatio...')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/rese/reservationnew
+HTTP_REFERER=http://localhost/index.php/site/editperson
+---
+2014/03/02 23:02:56 [error] [php] Trying to get property of non-object (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php:296)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): ReseController->renderFile()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): ReseController->renderPartial()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php(29): ReseController->render()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php(98): View->renderViewWithModelAndParam()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReseController->actionReservationnew()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): ReseController->runAction()
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): ReseController->runActionWithFilters()
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): ReseController->run()
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/rese/reservationnew
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php (296)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php (29)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (98)
+2014/03/02 23:03:22 [error] [php] Trying to get property of non-object (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php:296)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): ReseController->renderFile()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): ReseController->renderPartial()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php(29): ReseController->render()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php(98): View->renderViewWithModelAndParam()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReseController->actionReservationnew()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): ReseController->runAction()
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): ReseController->runActionWithFilters()
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): ReseController->run()
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/rese/reservationnew
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php (296)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php (29)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (98)
+2014/03/02 23:03:51 [warning] [application] Failed to set unsafe attribute "reservations" of "ReservationStatus".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReservationstatusController.php (17)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/02 23:03:58 [error] [php] Trying to get property of non-object (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php:296)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): ReseController->renderFile()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): ReseController->renderPartial()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php(29): ReseController->render()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php(98): View->renderViewWithModelAndParam()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReseController->actionReservationnew()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): ReseController->runAction()
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): ReseController->runActionWithFilters()
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): ReseController->run()
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/rese/reservationnew
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php (296)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php (29)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (98)
+2014/03/02 23:03:59 [error] [php] Trying to get property of non-object (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php:296)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): ReseController->renderFile()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): ReseController->renderPartial()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php(29): ReseController->render()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php(98): View->renderViewWithModelAndParam()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReseController->actionReservationnew()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): ReseController->runAction()
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): ReseController->runActionWithFilters()
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): ReseController->run()
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/rese/reservationnew
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php (296)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php (29)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (98)
+2014/03/02 23:04:17 [error] [php] Trying to get property of non-object (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php:296)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): ReseController->renderFile()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): ReseController->renderPartial()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php(29): ReseController->render()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php(98): View->renderViewWithModelAndParam()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReseController->actionReservationnew()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): ReseController->runAction()
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): ReseController->runActionWithFilters()
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): ReseController->run()
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/rese/reservationnew
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php (296)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php (29)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (98)
+2014/03/02 23:24:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editperson".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('editperson')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('editperson')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('site/editperson')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/editperson
+HTTP_REFERER=http://localhost/
+---
+2014/03/02 23:25:29 [error] [php] Trying to get property of non-object (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php:296)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): ReseController->renderFile()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): ReseController->renderPartial()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php(29): ReseController->render()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php(70): View->renderViewWithModelAndParam()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReseController->actionReservationnew()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): ReseController->runAction()
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): ReseController->runActionWithFilters()
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): ReseController->run()
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/rese/reservationnew
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php (296)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php (29)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (70)
+2014/03/02 23:25:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "addreservationstatus".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('addreservations...')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('addreservations...')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('site/addreserva...')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/addreservationstatus
+HTTP_REFERER=http://localhost/index.php/add/addreservationstatus
+---
+2014/03/13 19:16:36 [error] [php] Trying to get property of non-object (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/AddForm.php:111)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): AddController->runAction()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): AddController->runActionWithFilters()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): AddController->run()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/add/addperson
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/AddForm.php (111)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/AddController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 19:18:38 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 19:18:38 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 19:18:38 [error] [exception.CException] exception 'CException' with message 'EditController cannot find the requested view "quickview".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:878
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('quickview', NULL, true)
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php(15): CController->render('quickview')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php(288): View->renderView(Object(EditController), 'quickview')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): EditController->actionEditperson()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('editperson')
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('edit/editperson')
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/edit/editperson
+HTTP_REFERER=http://localhost/index.php/edit/editperson
+---
+2014/03/13 14:19:54 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:19:54 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:20:13 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:20:13 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:20:47 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:20:47 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:23:15 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:23:15 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:23:19 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:23:19 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:23:33 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:23:33 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:25:10 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:25:10 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:25:50 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:25:50 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:26:16 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (278)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:26:16 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (287)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:26:30 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:26:30 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (287)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:27:13 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:27:13 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:28:23 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:28:23 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:29:10 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:29:10 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:29:33 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:29:33 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:30:23 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:31:49 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:31:49 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:33:46 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:33:46 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:34:01 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:34:01 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 19:34:12 [error] [php] Undefined index: resetPassword (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php:288)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): EditController->runAction()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): EditController->runActionWithFilters()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): EditController->run()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/edit/editperson
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (288)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:34:37 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:34:37 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:36:45 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:36:45 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:37:33 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:37:33 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:39:13 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:39:13 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 19:45:31 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 19:45:31 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 19:45:31 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'login_id' in 'field list'. The SQL statement executed was: SELECT login_id FROM `tbl_login` `t` WHERE people_id=:userid LIMIT 1.
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/EditForm.php (198)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (288)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 19:45:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'login_id' in 'field list'. The SQL statement executed was: SELECT login_id FROM `tbl_login` `t` WHERE people_id=:userid LIMIT 1' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/db/ar/CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/EditForm.php(198): CActiveRecord->find(Array)
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php(288): EditForm->editPerson()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): EditController->actionEditperson()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('editperson')
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('edit/editperson')
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php/edit/editperson
+HTTP_REFERER=http://localhost/index.php/edit/editperson
+---
+2014/03/13 14:47:34 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:47:34 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:48:03 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (277)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 14:48:03 [warning] [application] Failed to set unsafe attribute "resetPassword" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (286)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:05:56 [error] [php] Trying to get property of non-object (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php:397)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php(264): EditController->initializeView()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): EditController->actionEditperson()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): EditController->runAction()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): EditController->runActionWithFilters()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): EditController->run()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/edit/editperson
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (397)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (368)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/EditController.php (359)
+2014/03/13 20:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/extensions/giix-components/GxController.php:144
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/PersonRoleController.php(8): GxController->loadModel('11', 'PersonRole')
+#1 [internal function]: PersonRoleController->actionView('11')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(PersonRoleController), Array)
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PersonRoleController), Object(ReflectionMethod), Array)
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('personRole/view')
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/personRole/view?id=11
+---
+2014/03/13 20:06:17 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CAssetManager.php:138
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CAssetManager.php(123): CAssetManager->setBasePath('/Users/imicklis...')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CAssetManager.php(217): CAssetManager->getBasePath()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/zii/widgets/CListView.php(217): CAssetManager->publish('/Users/imicklis...')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(147): CListView->init()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/personRole/index.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(126): require('/Users/imicklis...')
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/imicklis...', Array, true)
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): CBaseController->renderFile('/Users/imicklis...', Array, true)
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/PersonRoleController.php(61): CController->render('index', Array)
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): PersonRoleController->actionIndex()
+#12 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#14 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('')
+#16 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('personRole')
+#17 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/personRole
+---
+2014/03/13 20:11:39 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CAssetManager.php:138
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CAssetManager.php(123): CAssetManager->setBasePath('/Users/imicklis...')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CAssetManager.php(217): CAssetManager->getBasePath()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/zii/widgets/CListView.php(217): CAssetManager->publish('/Users/imicklis...')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(147): CListView->init()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/login/index.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(126): require('/Users/imicklis...')
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/imicklis...', Array, true)
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): CBaseController->renderFile('/Users/imicklis...', Array, true)
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/LoginController.php(61): CController->render('index', Array)
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#12 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#14 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('')
+#16 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('Login')
+#17 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/Login
+---
+2014/03/13 20:16:42 [error] [php] Trying to get property of non-object (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php:227)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): ReseController->renderFile()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): ReseController->renderPartial()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php(29): ReseController->render()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php(70): View->renderViewWithModelAndParam()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReseController->actionReservationnew()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): ReseController->runAction()
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): ReseController->runActionWithFilters()
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): ReseController->run()
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/rese/reservationnew
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php (227)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php (29)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (70)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "reservationNumber" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "peopleId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "secondaryContactId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "buildingId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "reservationStatus" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "reservationStatusId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "equipment1" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "equipment2" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "equipment3" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "equipment4" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "equipment5" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "oldEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "oldEquipment1" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "oldEquipment2" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "oldEquipment3" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "oldEquipment4" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "oldEquipment5" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "removableEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [warning] [application] Failed to set unsafe attribute "addableEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:07 [error] [php] Object of class AddForm could not be converted to string (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/AddForm.php:172)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReseController->actionReservationnew()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): ReseController->runAction()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): ReseController->runActionWithFilters()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): ReseController->run()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/rese/reservationnew
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/AddForm.php (172)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (73)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "reservationNumber" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "peopleId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "secondaryContactId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "buildingId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "reservationStatus" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "reservationStatusId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "equipment1" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "equipment2" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "equipment3" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "equipment4" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "equipment5" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "oldEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "oldEquipment1" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "oldEquipment2" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "oldEquipment3" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "oldEquipment4" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "oldEquipment5" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "removableEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [warning] [application] Failed to set unsafe attribute "addableEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:33:21 [error] [exception.CException] exception 'CException' with message 'ReseController and its behaviors do not have a method or closure named "actionQuickview".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php(59): CComponent->__call('actionQuickview', Array)
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php(59): ReseController->actionQuickview()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReseController->actionReservationnew()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('reservationnew')
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('rese/reservatio...')
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/rese/reservationnew
+HTTP_REFERER=http://localhost/index.php/rese/reservationnew
+---
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "reservationNumber" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "peopleId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "secondaryContactId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "buildingId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "reservationStatus" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "reservationStatusId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "equipment1" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "equipment2" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "equipment3" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "equipment4" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "equipment5" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "oldEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "oldEquipment1" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "oldEquipment2" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "oldEquipment3" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "oldEquipment4" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "oldEquipment5" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "removableEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:34:52 [warning] [application] Failed to set unsafe attribute "addableEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:34:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('rese/index.php/...')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/rese/index.php/site/reservationedit&id=2
+HTTP_REFERER=http://localhost/index.php/rese/reservationnew
+---
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "reservationNumber" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "peopleId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "secondaryContactId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "buildingId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "reservationStatus" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "reservationStatusId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "equipment1" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "equipment2" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "equipment3" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "equipment4" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "equipment5" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "oldEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "oldEquipment1" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "oldEquipment2" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "oldEquipment3" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "oldEquipment4" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "oldEquipment5" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "removableEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:36:02 [warning] [application] Failed to set unsafe attribute "addableEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:36:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reservationedit&id=3".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('reservationedit...')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('reservationedit...')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('rese/reservatio...')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/rese/reservationedit&id=3
+HTTP_REFERER=http://localhost/index.php/rese/reservationnew
+---
+2014/03/13 20:36:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reservationcheckout&id=3".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('reservationchec...')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('reservationchec...')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('rese/reservatio...')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/rese/reservationcheckout&id=3
+HTTP_REFERER=http://localhost/index.php/rese/reservationnew
+---
+2014/03/13 20:36:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reservationagreement&id=3".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('reservationagre...')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('reservationagre...')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('rese/reservatio...')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/rese/reservationagreement&id=3
+HTTP_REFERER=http://localhost/index.php/rese/reservationnew
+---
+2014/03/13 20:36:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reservationcheckout&id=3".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('reservationchec...')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('reservationchec...')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('rese/reservatio...')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/rese/reservationcheckout&id=3
+HTTP_REFERER=http://localhost/index.php/rese/reservationnew
+---
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "reservationNumber" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "peopleId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "secondaryContactId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "buildingId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "reservationStatus" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "reservationStatusId" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "equipment1" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "equipment2" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "equipment3" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "equipment4" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "equipment5" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "oldEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "oldEquipment1" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "oldEquipment2" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "oldEquipment3" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "oldEquipment4" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "oldEquipment5" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "removableEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:37:28 [warning] [application] Failed to set unsafe attribute "addableEquipment" of "AddForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (72)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (58)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reservationedit".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('reservationedit')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('reservationedit')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reservatio...')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/reservationedit?id=4
+HTTP_REFERER=http://localhost/index.php/site/quickview
+---
+2014/03/13 20:38:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reservationedit".' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(270): CController->missingAction('reservationedit')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('reservationedit')
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reservatio...')
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/reservationedit?id=4
+HTTP_REFERER=http://localhost/index.php/site/quickview
+---
+2014/03/13 20:38:33 [error] [php] Undefined variable: reportForm (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php:534)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): ReseController->renderFile()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): ReseController->renderPartial()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php(39): ReseController->render()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php(192): View->renderViewWithModelAndThreeParam()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReseController->actionReservationedit()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): ReseController->runAction()
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): ReseController->runActionWithFilters()
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): ReseController->run()
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/rese/reservationedit?id=4
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php (534)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php (39)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (192)
+2014/03/13 20:40:05 [error] [php] Undefined variable: reportForm (/Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php:535)
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(869): ReseController->renderFile()
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(782): ReseController->renderPartial()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php(39): ReseController->render()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php(192): View->renderViewWithModelAndThreeParam()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReseController->actionReservationedit()
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): ReseController->runAction()
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): ReseController->runActionWithFilters()
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): ReseController->run()
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CWebApplication->run()
+REQUEST_URI=/index.php/rese/reservationedit?id=4
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/views/rese/reservationform.php (535)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/View.php (39)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (192)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "primaryEmail" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "secondaryEmail" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "resStatusName" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "endTime" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "equipment1" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "equipment2" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "equipment3" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "equipment4" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "equipment5" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "oldEquipment1" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "oldEquipment2" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "oldEquipment3" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "oldEquipment4" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [warning] [application] Failed to set unsafe attribute "oldEquipment5" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 20:41:17 [error] [exception.CException] exception 'CException' with message 'Property "EditForm.endTime" is not defined.' in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/EditForm.php(225): CComponent->__get('endTime')
+#1 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php(147): EditForm->editReservation()
+#2 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php(178): ReservationForm->editReservation()
+#3 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): ReseController->actionReservationedit()
+#4 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('reservationedit')
+#8 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('rese/reservatio...')
+#9 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php(24): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/rese/reservationedit
+HTTP_REFERER=http://localhost/index.php/rese/reservationedit?id=4
+---
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "primaryEmail" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "secondaryEmail" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "resStatusName" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "equipment1" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "equipment2" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "equipment3" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "equipment4" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "equipment5" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "oldEquipment1" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "oldEquipment2" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "oldEquipment3" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "oldEquipment4" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:42:59 [warning] [application] Failed to set unsafe attribute "oldEquipment5" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "primaryEmail" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "secondaryEmail" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "resStatusName" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "equipment1" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "equipment2" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "equipment3" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "equipment4" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "equipment5" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "oldEquipment1" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "oldEquipment2" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "oldEquipment3" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "oldEquipment4" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:14 [warning] [application] Failed to set unsafe attribute "oldEquipment5" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "primaryEmail" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "secondaryEmail" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "resStatusName" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "equipment1" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "equipment2" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "equipment3" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "equipment4" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "equipment5" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "oldEquipment1" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "oldEquipment2" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "oldEquipment3" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "oldEquipment4" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:43:45 [warning] [application] Failed to set unsafe attribute "oldEquipment5" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (146)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "primaryEmail" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "secondaryEmail" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "resStatusName" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "equipment1" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "equipment2" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "equipment3" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "equipment4" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "equipment5" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "oldEquipment1" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "oldEquipment2" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "oldEquipment3" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "oldEquipment4" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/03/13 15:45:55 [warning] [application] Failed to set unsafe attribute "oldEquipment5" of "EditForm".
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
+in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)

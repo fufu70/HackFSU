@@ -1,0 +1,68 @@
+
+.navbar-form input[type="text"] {
+	margin-bottom: 0;
+	border-radius: 0;
+	
+	/* Wider search bar so that the navbar doesn't look empty */
+	min-width: 350px;
+}
+
+.navbar-form button[type="submit"] {
+	/* Move the button -4 pixels so it lines up with the search field */
+	margin-left: -4px;
+	
+	/* Easier target to click */
+	width: 60px;
+	
+	/* Set the radius to something smooth so the corners aren't all sharp */
+	border-radius: 2px;
+	
+	/* This will join the button and the text field side-by-side perfectly */
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	
+	/* This will give the button some depth */
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+h1:first-child {
+	margin-top: 0px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.margin-small {
+    margin-top: 32px;
+}
+
+.col-fit {
+    white-space: nowrap;
+}
+
+.scroll-hor {
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+td.Ready {
+    background-color: #d1ecc6 !important;
+    color: black !important;
+}
+
+td.Active {
+    background-color: #f0d0d0 !important;
+    color: black !important;
+}
+
+td.Overdue {
+    background-color: #ffface !important;
+    color: black !important;
+}
+
+td.Closed {
+    background-color: #f7f7f7 !important;
+    color: black !important;
+}

@@ -1,0 +1,150 @@
+2013/10/14 17:41:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/imicklisch/Desktop/Xeres/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Desktop/Xeres/framework/web/CController.php(270): CController->missingAction('')
+#1 /Users/imicklisch/Desktop/Xeres/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Users/imicklisch/Desktop/Xeres/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Users/imicklisch/Desktop/Xeres/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Desktop/Xeres/framework/yii-blog-rest 2/index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2013/10/21 18:00:23 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php:878
+Stack trace:
+#0 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/protected/controllers/SiteController.php(139): CController->render('index', Array)
+#2 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('')
+#12 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#13 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/
+---
+2013/10/21 18:00:35 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php:878
+Stack trace:
+#0 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/protected/controllers/SiteController.php(139): CController->render('index', Array)
+#2 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('')
+#12 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#13 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=site/addlocation
+---
+2013/10/21 18:01:05 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php:878
+Stack trace:
+#0 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/protected/controllers/SiteController.php(139): CController->render('index', Array)
+#2 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('')
+#12 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#13 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/
+---
+2013/10/21 18:01:06 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php:878
+Stack trace:
+#0 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/protected/controllers/SiteController.php(139): CController->render('index', Array)
+#2 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('')
+#12 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#13 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/
+---
+2013/10/21 18:01:32 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php:878
+Stack trace:
+#0 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/protected/controllers/SiteController.php(139): CController->render('index', Array)
+#2 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('')
+#12 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#13 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/
+---
+2013/10/21 18:06:41 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php:878
+Stack trace:
+#0 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/protected/controllers/SiteController.php(139): CController->render('index', Array)
+#2 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('')
+#12 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#13 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/
+---
+2013/10/21 18:13:53 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php:878
+Stack trace:
+#0 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/protected/controllers/SiteController.php(139): CController->render('index', Array)
+#2 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(282): CController->run('')
+#12 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#13 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/imicklisch/Desktop/Xeres/reservation-system/src/framework/yii-blog-rest 2/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/
+---
