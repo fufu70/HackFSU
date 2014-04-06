@@ -45,18 +45,7 @@
 
 			<div class="row marketing">
 				<div class="col-lg-12">
-					<div class="media">
-						<a class="pull-left" href="#">
-							<img class="media-object" src="..." alt="...">
-						</a>
-						<a class="pull-right btn btn-success" href="#">
-							:)
-						</a>
-						<div class="media-body">
-							<h4 class="media-heading">Media heading</h4>
-							Some text
-						</div>
-					</div>
+                	<?php echo $content; ?>
 				</div>
 			</div>
 

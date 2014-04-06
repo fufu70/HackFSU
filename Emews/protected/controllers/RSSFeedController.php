@@ -8,16 +8,15 @@ class RSSFeedController extends Controller
 
 	public function actionGetRSSFeed()
 	{
-		$this->_model = new ReservationForm;
 		$num = false;
 		$this->initializeView();
 
-		echo RSSFeed::getRSSFeed('http://rss.cnn.com/rss/cnn_topstories.rss');
+		$html =  RSSFeed::getRSSFeed('http://rss.cnn.com/rss/cnn_topstories.rss');
+		$this->render("mediafeed", array("feed_html"=>$html));
 	}	
 	
 	public function actionReservationagreement()
 	{
-		$this->_model = new ReservationForm;
 		$num = false;
 		$this->initializeView();
 	}
@@ -25,5 +24,6 @@ class RSSFeedController extends Controller
 	public function initializeView()
 	{
 		$this->_view = new View;
+		$this->_view->setLayout($this, "main");
 	}
 }
