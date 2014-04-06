@@ -1822,3 +1822,36 @@ Stack trace:
 REQUEST_URI=/index.php/RSSFeed/...
 HTTP_REFERER=http://localhost/index.php/RSSFeed/getrssfeed
 ---
+2014/04/06 06:47:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "...".' in /Users/imicklisch/Documents/HackFSU/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(270): CController->missingAction('...')
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): CController->run('...')
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('RSSFeed/...')
+#3 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/RSSFeed/...
+HTTP_REFERER=http://localhost/index.php/RSSFeed/getrssfeed
+---
+2014/04/06 06:50:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "...".' in /Users/imicklisch/Documents/HackFSU/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(270): CController->missingAction('...')
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): CController->run('...')
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('RSSFeed/...')
+#3 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/RSSFeed/...
+HTTP_REFERER=http://localhost/index.php/RSSFeed/getrssfeed
+---
+2014/04/06 06:50:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "...".' in /Users/imicklisch/Documents/HackFSU/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(270): CController->missingAction('...')
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): CController->run('...')
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('RSSFeed/...')
+#3 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/RSSFeed/...
+HTTP_REFERER=http://localhost/index.php/RSSFeed/getrssfeed
+---
