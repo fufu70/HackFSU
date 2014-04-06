@@ -28,24 +28,6 @@ class SiteController extends Controller
 	}
 
 	/**
-	 *	After the user has been properly logged in from the use of the DoorKeeper
-	 * 	Controller, the user is brought to the QuickView which allows him to view
-	 * 	all of the reservations and make changes to them. It just calls the QuickViewForm
-	 * 	class sends in all of the reservations that are of a certain date. Whenever there is
-	 * 	a POST it will usually be about a change in a Reservation.
-	 */
-	public function actionQuickview()
-	{
-		$this->_nonViewers = array("User");
-		$this->initializeView();
-
-		if($this->canUserView())
-		{
-			$this->_view->renderView($this, 'quickview');
-		}
-	}
-
-	/**
 	 *			 ||||||||		||||||||	||||||||||
 	 *			||		||		||	   ||		||
 	 *			||		||		||	   ||		||

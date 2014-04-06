@@ -1529,3 +1529,296 @@ in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xer
 in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/models/ReservationForm.php (148)
 in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/protected/controllers/ReseController.php (178)
 in /Users/imicklisch/Documents/SoftwareDev2Work/Xeres/reservation-system/src/Xeres/index.php (24)
+2014/04/06 05:29:52 [error] [php] Undefined variable: feed_url (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:14)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): SiteController->runAction()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (14)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/SiteController.php (29)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 05:30:07 [error] [php] Invalid argument supplied for foreach() (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:19)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): SiteController->runAction()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (19)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/SiteController.php (29)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 05:47:43 [error] [php] RSSFeed::getRssFeed(): Cannot add element rss number 1 when only 0 such elements exist (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:19)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): SiteController->runAction()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (19)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/SiteController.php (29)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 05:48:40 [error] [php] array_keys() expects parameter 1 to be array, object given (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:19)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): SiteController->runAction()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): SiteController->run()
+#5 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (19)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/SiteController.php (29)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 05:50:09 [error] [php] array_keys() expects parameter 1 to be array, object given (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:19)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): SiteController->runAction()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): SiteController->run()
+#5 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (19)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/SiteController.php (29)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 05:50:10 [error] [php] array_keys() expects parameter 1 to be array, object given (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:19)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): SiteController->runAction()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): SiteController->run()
+#5 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (19)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/SiteController.php (29)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 05:52:45 [error] [php] get_object_vars() expects parameter 1 to be object, null given (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:19)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): SiteController->runAction()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): SiteController->run()
+#5 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (19)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/SiteController.php (29)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 05:56:53 [error] [php] Undefined variable: xml (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:19)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): SiteController->runAction()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (19)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/SiteController.php (29)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 05:58:04 [error] [php] Undefined variable: array (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:25)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): SiteController->runAction()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (25)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/SiteController.php (29)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 06:30:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "edit/editperson".' in /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('edit/editperson')
+#1 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/edit/editperson
+---
+2014/04/06 06:30:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "edit/editperson".' in /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('edit/editperson')
+#1 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/edit/editperson
+---
+2014/04/06 06:30:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "edit/editperson".' in /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('edit/editperson')
+#1 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/edit/editperson
+---
+2014/04/06 06:30:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "edit/editperson".' in /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('edit/editperson')
+#1 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/edit/editperson
+---
+2014/04/06 06:30:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/imicklisch/Documents/HackFSU/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(270): CController->missingAction('')
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('RSSFeed')
+#3 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/RSSFeed
+---
+2014/04/06 06:30:52 [error] [php] include(ReservationForm.php): failed to open stream: No such file or directory (/Users/imicklisch/Documents/HackFSU/framework/YiiBase.php:427)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/RSSFeedController.php(11): spl_autoload_call()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/actions/CInlineAction.php(49): RSSFeedController->actionGetRSSFeed()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): RSSFeedController->runAction()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): RSSFeedController->runActionWithFilters()
+#5 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): RSSFeedController->run()
+#6 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/index.php/RSSFeed/getrssfeed
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/RSSFeedController.php (11)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 06:36:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "...".' in /Users/imicklisch/Documents/HackFSU/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(270): CController->missingAction('...')
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): CController->run('...')
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('RSSFeed/...')
+#3 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/RSSFeed/...
+HTTP_REFERER=http://localhost/index.php/RSSFeed/getrssfeed
+---
+2014/04/06 06:36:48 [error] [php] Undefined variable: item (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:27)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): RSSFeedController->runAction()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): RSSFeedController->runActionWithFilters()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): RSSFeedController->run()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/index.php/RSSFeed/getrssfeed
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (27)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/RSSFeedController.php (15)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 06:36:53 [error] [php] Undefined variable: item (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:27)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): RSSFeedController->runAction()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): RSSFeedController->runActionWithFilters()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): RSSFeedController->run()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/index.php/RSSFeed/getrssfeed
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (27)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/RSSFeedController.php (15)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 06:37:09 [error] [php] Undefined variable: item (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:19)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): RSSFeedController->runAction()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): RSSFeedController->runActionWithFilters()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): RSSFeedController->run()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/index.php/RSSFeed/getrssfeed
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (19)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/RSSFeedController.php (15)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
+2014/04/06 06:39:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "...".' in /Users/imicklisch/Documents/HackFSU/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(270): CController->missingAction('...')
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): CController->run('...')
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('RSSFeed/...')
+#3 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/RSSFeed/...
+HTTP_REFERER=http://localhost/index.php/RSSFeed/getrssfeed
+---
+2014/04/06 06:39:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "...".' in /Users/imicklisch/Documents/HackFSU/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(270): CController->missingAction('...')
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): CController->run('...')
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('RSSFeed/...')
+#3 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/RSSFeed/...
+HTTP_REFERER=http://localhost/index.php/RSSFeed/getrssfeed
+---
+2014/04/06 06:39:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "...".' in /Users/imicklisch/Documents/HackFSU/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(270): CController->missingAction('...')
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): CController->run('...')
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('RSSFeed/...')
+#3 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/RSSFeed/...
+HTTP_REFERER=http://localhost/index.php/RSSFeed/getrssfeed
+---
+2014/04/06 06:39:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "...".' in /Users/imicklisch/Documents/HackFSU/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(270): CController->missingAction('...')
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): CController->run('...')
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('RSSFeed/...')
+#3 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/RSSFeed/...
+HTTP_REFERER=http://localhost/index.php/RSSFeed/getrssfeed
+---
+2014/04/06 06:44:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "...".' in /Users/imicklisch/Documents/HackFSU/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(270): CController->missingAction('...')
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): CController->run('...')
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('RSSFeed/...')
+#3 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/RSSFeed/...
+HTTP_REFERER=http://localhost/index.php/RSSFeed/getrssfeed
+---
+2014/04/06 06:45:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "...".' in /Users/imicklisch/Documents/HackFSU/framework/web/CController.php:483
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(270): CController->missingAction('...')
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): CController->run('...')
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController('RSSFeed/...')
+#3 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/RSSFeed/...
+HTTP_REFERER=http://localhost/index.php/RSSFeed/getrssfeed
+---

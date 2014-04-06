@@ -11,6 +11,11 @@ define("HASH_ITERATION_INDEX", 1);
 define("HASH_SALT_INDEX", 2);
 define("HASH_PBKDF2_INDEX", 3);
 
+DEFINE ('DB_USER', 'my_username');   
+DEFINE ('DB_PASSWORD', 'my_password');   
+DEFINE ('DB_HOST', 'localhost');   
+DEFINE ('DB_NAME', 'my_database'); 
+
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/../framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
