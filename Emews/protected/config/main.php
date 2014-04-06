@@ -62,10 +62,10 @@ return array(
         ),
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=menagerie',
+			'connectionString' => 'mysql:host=68.178.143.91;dbname=menag',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'fredrichdergrosse',
+			'username' => 'menag',
+			'password' => 'Lapland1!',
 			'charset' => 'utf8',
 		),
 		// uncomment the following to use a MySQL database
