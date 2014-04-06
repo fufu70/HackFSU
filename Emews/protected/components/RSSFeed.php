@@ -32,9 +32,9 @@ class RSSFeed
                                 <h4 class='media-heading'>".$entry->title."</h4>
                                 ".$link_array['description']."
                                 </br>
-                                <a href='".$link_array['email']."'>email </a>
-                                <a href='".$link_array['facebook']."'>facebook</a>
-                                <a href='".$entry->link."'>link</a>
+                                <a href='".$link_array['email']."'><i class='fa fa-envelope'></i> E-mail</a>
+                                <a href='".$link_array['facebook']."'><i class='fa fa-facebook-square'></i> Share</a>
+                                <a href='".$entry->link."'><i class='fa fa-external-link'></i> Original</a>
                             </div>
                         </div>
                 </div>";
