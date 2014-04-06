@@ -62,10 +62,10 @@ return array(
         ),
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=Equipment_Reservation_Database',
+			'connectionString' => 'mysql:host=localhost;dbname=menagerie',
 			'emulatePrepare' => true,
-			'username' => 'xeres_cms',
-			'password' => 'Android#6513',
+			'username' => 'root',
+			'password' => 'fredrichdergrosse',
 			'charset' => 'utf8',
 		),
 		// uncomment the following to use a MySQL database

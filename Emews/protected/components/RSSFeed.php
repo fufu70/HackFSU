@@ -9,9 +9,6 @@
 
 class RSSFeed
 {
-    /*
-     * 
-     */
     public static function getRssFeed($feed_url)
     {
         $content = file_get_contents($feed_url);
@@ -28,21 +25,29 @@ class RSSFeed
                     $stuff = $x['results'][$i]['media'][0]['media-metadata'][0]['url'];
                 }
             }
+            $sql = "SELECT * FROM user_emotion WHERE url = '".$x['results'][$i]['url']."' AND token = 'hey'";
+            $connection=Yii::app()->db;
+            $command=$connection->createCommand($sql);
+            $info = $command->queryAll();
+
+            $color = "#000000";
+
+            if(sizeof($info) != 0)
+            {
+                if($info[0]['mood'] == 0){ $color = '#419641';}
+                else if($info[0]['mood'] == 1){ $color = '#EB9316';} 
+                else if($info[0]['mood'] == 2){ $color = '#C12E2A';}
+            }
 
             $rssfeed .= "
-                <div class='col-lg-12'>
+                <div class='col-lg-12' style='padding-top:5px; padding-bottom:5px;'>
                         <div class='media'>
                             <a class='pull-left' href='/index.php/RSSFeed/getarticle/?url_feed=".$x['results'][$i]['url']."'>
                                 <img class='media-object' src='".$stuff."' style='width:75px; height:75px;'>
                             </a>
-
-                            <ul class='pull-right'>
-                                <li><a class='btn btn-success'>:)</a></li>
-                                <li><a class='btn btn-warning'>:|</a></li>
-                                <li><a class='btn btn-danger'>:(</a></li>
-                            </ul>
                             <div class='media-body'>
-                                <h4 class='media-heading'>".$x['results'][$i]['title']."</h4>
+                                <a href='/index.php/RSSFeed/getarticle/?url_feed=".$x['results'][$i]['url']."'><h4 class='media-heading' style='color:".$color.";font-size:20px;'>".$x['results'][$i]['title']."</h4></a>
+                                </br>
                                 ".$x['results'][$i]['abstract']."
                                 </br>
                                 <div class='fb-share-button' data-href='".$x['results'][$i]['url']."' data-type='icon_link'></div>
@@ -55,20 +60,4 @@ class RSSFeed
         return $rssfeed;
     }
 
-    public static function getEmailAndFacebookFromDescription($description)
-    {
-        // echo $description;
-        // $desc_split = explode('<div', $description);
-        // $description_text = $desc_split[0];
-
-        // $desc_split = explode('href="', $description);
-        // $desc_return = explode('"', $desc_split[1]);
-        // $email_link = $desc_return[0];
-
-        // $desc_return = explode('"', $desc_split[4]);
-        // $facebook_link = $desc_return[0];
-
-        // $link_array = array('email'=>$email_link, 'facebook'=>$facebook_link, 'description'=>$description_text);
-        // return $link_array;
-    }
 }

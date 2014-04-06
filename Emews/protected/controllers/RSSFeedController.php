@@ -20,8 +20,34 @@ class RSSFeedController extends Controller
 		$num = false;
 		$this->initializeView();
 
-		$html =  $_GET['url_feed'];
-		$this->render("articlefeed", array("feed_html"=>$html));
+		if(isset($_POST['mood_choose']))
+		{
+			$sql = "SELECT * FROM user_emotion WHERE url = '".$_POST['url']."' AND token = 'hey'";
+			$connection=Yii::app()->db;
+			$command=$connection->createCommand($sql);
+			$info = $command->queryAll();
+			if(sizeof($info) == 0)
+			{
+				$sql = "INSERT INTO `user_emotion` (`token`, `url`, `mood`) VALUES('hey', '".$_POST['url']."', '".$_POST['mood_choose']."')";
+				$connection=Yii::app()->db;
+				$command=$connection->createCommand($sql);
+				$command->execute();
+				$this->actionGetRSSFeed();
+			}
+			else
+			{
+				$sql = "UPDATE `user_emotion` SET mood = '".$_POST['mood_choose']."' WHERE url = '".$_POST['url']."' AND token = 'hey'";
+				$connection=Yii::app()->db;
+				$command=$connection->createCommand($sql);
+				$command->execute();
+				$this->actionGetRSSFeed();
+			}
+		}
+		else
+		{
+			$html =  $_GET['url_feed'];
+			$this->render("articlefeed", array("feed_html"=>$html));
+		}
 	}
 
 	public function initializeView()

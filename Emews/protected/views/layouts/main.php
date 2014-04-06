@@ -6,6 +6,15 @@
   $username = $parts[0];
   date_default_timezone_set("America/New_York");
 
+  $facebook_user_info = array(
+    'appId' => '615150678563708',
+    'secret' => '9a333ac7acb6e11f0591647c00bb5d5d',
+    'allowSignedRequest' => false // optional but should be set to false for non-canvas apps
+  );
+
+  $facebook = new Facebook($facebook_user_info);
+  $user_info = $facebook->getUser();
+
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -22,8 +31,7 @@
 		<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/bootstrap.css">
 		<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/narrow.css">
-        	<!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">-->
-		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
 		<!-- Animate.css for some flare -->
 		<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/animate.min.css">
@@ -43,21 +51,35 @@
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=615150678563708";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-		<div class="container">
-			<div class="header">
+		<div class="container" style="background-color:#ECF1F0;min-width:750px">
+			<div  class="header">
 
-				<ul class="nav nav-pills" style="<?php if(!isset($_GET['url_feed'])){ echo 'display:none';} ?>">
-					<li><a class="btn btn-success">:)</a></li>
-					<li><a class="btn btn-warning">:|</a></li>
-					<li><a class="btn btn-danger">:(</a></li>
+				<a href="/index.php/RSSFeed/getrssfeed/"><h3 class="nav navbar-nav navbar-left" style="margin-right:50px;">E-Mews</h3></a>
+				<div class="navbar-header btn-group navbar-right">
+				<ul class="nav navbar-nav">
+					<li>
+					<form method="post" action="/index.php/RSSFeed/getarticle/">
+						<input style="display:none;" type="text" name="url" value="<?php if(isset($_GET['url_feed'])){echo $_GET['url_feed'];} ?>" />
+						<input style="display:none;" type="text" name="mood_choose" value="0" />
+						<button type="submit" style="margin-top:10px;margin:left:5px;margin-right:5px;<?php if(!isset($_GET['url_feed'])){echo 'display:none;';} ?>" class="btn btn-success">:)</button>
+					</form>
+					</li>
+					<li>
+					<form method="post" action="/index.php/RSSFeed/getarticle/">
+						<input style="display:none;" type="text" name="url" value="<?php if(isset($_GET['url_feed'])){echo $_GET['url_feed'];} ?>" />
+						<input style="display:none;" type="text" name="mood_choose" value="1" />
+						<button type="submit" style="margin-top:10px;margin:left:5px;margin-right:5px;<?php if(!isset($_GET['url_feed'])){echo 'display:none;';} ?>" class="btn btn-warning">:|</button>
+					</form>
+					</li>
+					<li>
+					<form method="post" action="/index.php/RSSFeed/getarticle/">
+						<input style="display:none;" type="text" name="url" value="<?php if(isset($_GET['url_feed'])){echo $_GET['url_feed'];} ?>" />
+						<input style="display:none;" type="text" name="mood_choose" value="2" />
+						<button type="submit" style="margin-top:10px;margin:left:5px;margin-right:5px;<?php if(!isset($_GET['url_feed'])){echo 'display:none;';} ?>" class="btn btn-danger">:(</button>
+					</form>
+					</li>
 				</ul>
-
-				<ul class="nav nav-pills pull-right">
-					<li class="active"><a href="/index.php/RSSFeed/getrssfeed/">Home</a></li>
-					<li><a href="#">Me</a></li>
-				</ul>
-
-				<a href=""><h3 class="text-muted">E-Mews</h3></a>
+				</div>
 			</div>
 
 			<div class="row marketing">
