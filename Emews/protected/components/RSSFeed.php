@@ -20,31 +20,33 @@ class RSSFeed
 
         for($i = 0; $i < sizeof($x['results']); $i ++) 
         {
-            // $link_array = RSSFeed::getEmailAndFacebookFromDescription($entry->description); 
-            var_dump($x['results'][$i]);
-            echo "</br>";
-            echo "</br>";
+            $stuff = "";
+            if($x['results'][$i]['media'] != '')
+            {
+                if($x['results'][$i]['media'][0]['type'] == 'image')
+                {
+                    $stuff = $x['results'][$i]['media'][0]['media-metadata'][0]['url'];
+                }
+            }
 
-            // $rssfeed .= "
-
-            //     <div class='col-lg-12'>
-            //             <div class='media'>
-            //                 <a class='pull-left' href='#'>
-            //                     <img class='media-object' src='' alt='...'>
-            //                 </a>
-            //                 <a class='pull-right btn btn-success' href='#'>
-            //                     :)
-            //                 </a>
-            //                 <div class='media-body'>
-            //                     <h4 class='media-heading'>".$entry->title."</h4>
-            //                     ".$link_array['description']."
-            //                     </br>
-            //                     <a href='".$link_array['email']."'><i class='fa fa-envelope'></i> E-mail</a>
-            //                     <a href='".$link_array['facebook']."'><i class='fa fa-facebook-square'></i> Share</a>
-            //                     <a href='".$entry->link."'><i class='fa fa-external-link'></i> Original</a>
-            //                 </div>
-            //             </div>
-            //     </div>";
+            $rssfeed .= "
+                <div class='col-lg-12'>
+                        <div class='media'>
+                            <a class='pull-left' href='#'>
+                                <img class='media-object' src='".$stuff."' alt='...'>
+                            </a>
+                            <a class='pull-right btn btn-success' href='#'>
+                                :)
+                            </a>
+                            <div class='media-body'>
+                                <h4 class='media-heading'>".$x['results'][$i]['title']."</h4>
+                                ".$x['results'][$i]['abstract']."
+                                </br>
+                                <div class='fb-share-button' data-href='".$x['results'][$i]['url']."' data-type='icon_link'></div>
+                              <a href='".$x['results'][$i]['url']."'><i class='fa fa-external-link'></i> Original</a>
+                            </div>
+                        </div>
+                </div>";
         }
 
         return $rssfeed;
