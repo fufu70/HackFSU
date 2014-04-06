@@ -45,10 +45,18 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 		<div class="container">
 			<div class="header">
+
+				<ul class="nav nav-pills" style="<?php if(!isset($_GET['url_feed'])){ echo 'display:none';} ?>">
+					<li><a class="btn btn-success">:)</a></li>
+					<li><a class="btn btn-warning">:|</a></li>
+					<li><a class="btn btn-danger">:(</a></li>
+				</ul>
+
 				<ul class="nav nav-pills pull-right">
 					<li class="active"><a href="/index.php/RSSFeed/getrssfeed/">Home</a></li>
 					<li><a href="#">Me</a></li>
 				</ul>
+
 				<a href=""><h3 class="text-muted">E-Mews</h3></a>
 			</div>
 

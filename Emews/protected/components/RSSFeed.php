@@ -35,9 +35,12 @@ class RSSFeed
                             <a class='pull-left' href='/index.php/RSSFeed/getarticle/?url_feed=".$x['results'][$i]['url']."'>
                                 <img class='media-object' src='".$stuff."' style='width:75px; height:75px;'>
                             </a>
-                            <a class='pull-right btn btn-success' href='#'>
-                                :)
-                            </a>
+
+                            <ul class='pull-right'>
+                                <li><a class='btn btn-success'>:)</a></li>
+                                <li><a class='btn btn-warning'>:|</a></li>
+                                <li><a class='btn btn-danger'>:(</a></li>
+                            </ul>
                             <div class='media-body'>
                                 <h4 class='media-heading'>".$x['results'][$i]['title']."</h4>
                                 ".$x['results'][$i]['abstract']."
