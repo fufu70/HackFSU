@@ -21,6 +21,7 @@
 		<!-- Latest compiled and minified Bootstrap CSS -->
 		<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/bootstrap.css">
 		<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/narrow.css">
         	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 		
 		<!-- Animate.css for some flare -->
