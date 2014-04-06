@@ -60,66 +60,9 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button> <!-- /navbar-toggle -->
-					<a class="navbar-brand" href="/index.php/site/quickview">Xeres</a>
+					<a class="navbar-brand" href="/index.php/site/quickview">Emews</a>
 				</div> <!-- /navbar-header -->
 				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Reservation <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="/index.php/rese/reservationnew">New</a></li>
-								<li><a href="/index.php/rese/reservationcheckout">Checkout</a></li>
-                                <li><a href="/index.php/rese/reservationclose">Close</a></li>
-							</ul> <!-- /.dropdown-menu -->
-						</li> <!-- /.dropdown -->
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Reports <b class="caret"></b></a>
-							<!-- TODO: Need to take reports that require a specific item to be selected in order to generate.
-						 	           Ultimately, we will migrate this to a side-bar nav (more than likely, though this is still TBA)
-								   on a specific items page. E.g. 'Current Status'
-							-->
-							<ul class="dropdown-menu">
-								<li class="dropdown-header">Reservations</li>
-								<li><a href="/index.php/repo/reporttotalreservations">Total Reservations</a></li>
-								<li><a href="/index.php/repo/reportreservationstatus">By Status</a></li>
-								<li><a href="/index.php/repo/reportitemsbyperson">By Person</a></li>
-								<li><a href="/index.php/repo/reportreservationsbytype">By Item Type</a></li>
-								<li><a href="/index.php/repo/reportitemsbynumber">By Barcode Number</a></li>
-								<li><a href="/index.php/repo/reportreservationswithdeliveryandsetup">With Delivery And Setup</a></li>
-								<li><a href="/index.php/repo/reportbyequipmentstatus">By Equipment Status</a></li>
-								<li class="dropdown-header">Equipment</li>
-								<li><a href="/index.php/repo/reporttotalreservationitems">Reserved Items</a></li>
-								<li><a href="/index.php/repo/reportunreserveditems">Unreserved Items</a></li>
-								<li class="dropdown-header">Misc</li>
-								<li><a href="/index.php/repo/reportoverdueitems">Overdue Items</a></li>
-								<li><a href="/index.php/repo/reportlogitems">Log Items</a></li>
-							</ul> <!-- /dropdown-menu -->
-						</li> <!-- /dropdown -->
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Add <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="/index.php/add/addperson">Person</a></li>
-								<li><a href="/index.php/add/addequipment">Equipment</a></li>
-								<li><a href="/index.php/add/addequipmenttype">Equipment Type</a></li>
-								<li><a href="/index.php/add/addequipmentstatus">Equipment Status</a></li>
-								<li><a href="/index.php/add/addlocation">Location</a></li>
-								<li><a href="/index.php/add/addreservationstatus">Reservation Status</a></li>
-								<li><a href="/index.php/add/addpeoplerole">Role</a></li>
-							</ul> <!-- /.dropdown-menu -->
-						</li> <!-- /.dropdown -->
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Edit <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="/index.php/edit/editperson">Person</a></li>
-								<li><a href="/index.php/edit/editequipment">Equipment</a></li>
-								<li><a href="/index.php/edit/editequipmenttype">Equipment Type</a></li>								
-								<li><a href="/index.php/edit/editequipmentstatus">Equipment Status</a></li>
-								<li><a href="/index.php/edit/editlocation">Location</a></li>
-								<li><a href="/index.php/edit/editreservationstatus">Reservation Status</a></li>
-								<li><a href="/index.php/edit/editpeoplerole">Role</a></li>
-							</ul> <!-- /.dropdown-menu -->
-						</li> <!-- /.dropdown -->
-					</ul> <!-- /.nav .navbar-nav -->
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b><?php echo $username; ?></b>&nbsp;<b class="caret"></b></a>
