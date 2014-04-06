@@ -24,7 +24,9 @@ class SiteController extends Controller
 	public function actionIndex()
 	{
 		$this->_doorKeeperController = new DoorKeeperController("doorkeeper");
-		$this->_doorKeeperController->actionIndex($this);
+		// $this->_doorKeeperController->actionIndex($this);
+		
+		echo RSSFeed::getRSSFeed('http://feeds.nytimes.com/nyt/rss/HomePage');
 	}
 
 	/**
