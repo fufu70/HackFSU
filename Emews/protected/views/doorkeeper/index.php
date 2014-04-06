@@ -63,6 +63,7 @@
       console.log('Good to see you, ' + response.name + '.');
     });
   }
+  window.location.href = 'http://localhost/index.php/RSSFeed/getrssfeed/';
 </script>
 
 <!--
@@ -70,7 +71,3 @@
   present a graphical Login button that triggers the FB.login() function when clicked. -->
 
 <fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button>
-<div id="fuck"></div>
-<script>
-alert(FB.Event.subscribe());
-</script>

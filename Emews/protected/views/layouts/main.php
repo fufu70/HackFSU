@@ -46,11 +46,10 @@
 		<div class="container">
 			<div class="header">
 				<ul class="nav nav-pills pull-right">
-					<li class="active"><a href="#">Home</a></li>
+					<li class="active"><a href="/index.php/RSSFeed/getrssfeed/">Home</a></li>
 					<li><a href="#">Me</a></li>
-					<li><a href="#">Contact</a></li>
 				</ul>
-				<h3 class="text-muted">E-Mews</h3>
+				<a href=""><h3 class="text-muted">E-Mews</h3></a>
 			</div>
 
 			<div class="row marketing">

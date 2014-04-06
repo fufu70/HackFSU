@@ -15,10 +15,13 @@ class RSSFeedController extends Controller
 		$this->render("mediafeed", array("feed_html"=>$html));
 	}	
 	
-	public function actionReservationagreement()
+	public function actionGetArticle()
 	{
 		$num = false;
 		$this->initializeView();
+
+		$html =  $_GET['url_feed'];
+		$this->render("articlefeed", array("feed_html"=>$html));
 	}
 
 	public function initializeView()

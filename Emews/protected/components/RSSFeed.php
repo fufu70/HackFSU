@@ -32,8 +32,8 @@ class RSSFeed
             $rssfeed .= "
                 <div class='col-lg-12'>
                         <div class='media'>
-                            <a class='pull-left' href='#'>
-                                <img class='media-object' src='".$stuff."' alt='...'>
+                            <a class='pull-left' href='/index.php/RSSFeed/getarticle/?url_feed=".$x['results'][$i]['url']."'>
+                                <img class='media-object' src='".$stuff."' style='width:75px; height:75px;'>
                             </a>
                             <a class='pull-right btn btn-success' href='#'>
                                 :)
