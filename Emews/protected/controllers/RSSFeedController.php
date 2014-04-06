@@ -11,7 +11,7 @@ class RSSFeedController extends Controller
 		$num = false;
 		$this->initializeView();
 
-		$html =  RSSFeed::getRSSFeed('http://rss.cnn.com/rss/cnn_topstories.rss');
+		$html =  RSSFeed::getRSSFeed('http://api.nytimes.com/svc/mostpopular/v2/mostemailed/all-sections/1.xml');
 		$this->render("mediafeed", array("feed_html"=>$html));
 	}	
 	

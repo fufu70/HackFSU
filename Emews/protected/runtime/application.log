@@ -2057,3 +2057,18 @@ Stack trace:
 REQUEST_URI=/index.php/RSSFeed/...
 HTTP_REFERER=http://localhost/index.php/RSSFeed/getrssfeed
 ---
+2014/04/06 07:49:53 [error] [php] file_get_contents(http://api.nytimes.com/svc/mostpopular/v2/mostemailed/all-sections/1.xml): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ (/Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php:14)
+Stack trace:
+#0 /Users/imicklisch/Documents/HackFSU/framework/web/actions/CInlineAction.php(49): RSSFeedController->actionGetRSSFeed()
+#1 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(286): RSSFeedController->runAction()
+#3 /Users/imicklisch/Documents/HackFSU/framework/web/CController.php(265): RSSFeedController->runActionWithFilters()
+#4 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(282): RSSFeedController->run()
+#5 /Users/imicklisch/Documents/HackFSU/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Users/imicklisch/Documents/HackFSU/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Users/imicklisch/Documents/HackFSU/Emews/index.php(29): CWebApplication->run()
+REQUEST_URI=/index.php/RSSFeed/getrssfeed
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/components/RSSFeed.php (14)
+in /Users/imicklisch/Documents/HackFSU/Emews/protected/controllers/RSSFeedController.php (14)
+in /Users/imicklisch/Documents/HackFSU/Emews/index.php (29)
