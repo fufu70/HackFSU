@@ -59,6 +59,7 @@
       console.log('Good to see you, ' + response.name + '.');
     });
   }
+  window.location.href = 'http://xeres.zapto.org/index.php/rssfeed/getrssfeed/';
 </script>
 
 <!--

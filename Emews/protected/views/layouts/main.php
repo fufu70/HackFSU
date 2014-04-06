@@ -54,25 +54,25 @@
 		<div class="container" style="background-color:#ECF1F0;min-width:750px">
 			<div  class="header">
 
-				<a href="/index.php/RSSFeed/getrssfeed/"><h3 class="nav navbar-nav navbar-left" style="margin-right:50px;">E-Mews</h3></a>
+				<a href="/index.php/rssfeed/getrssfeed/"><h3 class="nav navbar-nav navbar-left" style="margin-right:50px;">E-Mews</h3></a>
 				<div class="navbar-header btn-group navbar-right">
 				<ul class="nav navbar-nav">
 					<li>
-					<form method="post" action="/index.php/RSSFeed/getarticle/">
+					<form method="post" action="/index.php/rssfeed/getarticle/">
 						<input style="display:none;" type="text" name="url" value="<?php if(isset($_GET['url_feed'])){echo $_GET['url_feed'];} ?>" />
 						<input style="display:none;" type="text" name="mood_choose" value="0" />
 						<button type="submit" style="margin-top:10px;margin:left:5px;margin-right:5px;<?php if(!isset($_GET['url_feed'])){echo 'display:none;';} ?>" class="btn btn-success">:)</button>
 					</form>
 					</li>
 					<li>
-					<form method="post" action="/index.php/RSSFeed/getarticle/">
+					<form method="post" action="/index.php/rssfeed/getarticle/">
 						<input style="display:none;" type="text" name="url" value="<?php if(isset($_GET['url_feed'])){echo $_GET['url_feed'];} ?>" />
 						<input style="display:none;" type="text" name="mood_choose" value="1" />
 						<button type="submit" style="margin-top:10px;margin:left:5px;margin-right:5px;<?php if(!isset($_GET['url_feed'])){echo 'display:none;';} ?>" class="btn btn-warning">:|</button>
 					</form>
 					</li>
 					<li>
-					<form method="post" action="/index.php/RSSFeed/getarticle/">
+					<form method="post" action="/index.php/rssfeed/getarticle/">
 						<input style="display:none;" type="text" name="url" value="<?php if(isset($_GET['url_feed'])){echo $_GET['url_feed'];} ?>" />
 						<input style="display:none;" type="text" name="mood_choose" value="2" />
 						<button type="submit" style="margin-top:10px;margin:left:5px;margin-right:5px;<?php if(!isset($_GET['url_feed'])){echo 'display:none;';} ?>" class="btn btn-danger">:(</button>
