@@ -1,6 +1,6 @@
 <?php
 
-class rssfeedController extends Controller
+class RSSFeedController extends Controller
 {
 	private $_view;
 	private $_model;
